@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: cursive;
+}
+body{
+    background-image: url(banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+}
+#li{
+    background-color:#02B290;
+    /* width: 50px; */
+    
+}
+.li{
+    background-color: #E21717;
+    /* width: 50px; */
+}
+.box{
+    position: absolute;
+    left: 850px;
+    top: 130px; 
+   
+}
+li{
+    width:   350px;
+    padding: 15px;
+    /* background-position: top=5px; */
+    list-style: none;
+    margin-bottom:19px;
+    cursor: pointer; 
+}
+h3{
+    position:absolute;  
+    top: 82px;
+    left: 40vh;
+    font-size: large;
+    color: white;  
+}
+h5{
+    position:absolute;
+    top: 15px; 
+    left: 40vh;
+    font-size: large;
+    color: white;
+}
+.formBox{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 52vh;
+    left: 100vh;
+}
+input{
+    font-size: smaller;
+    height: 50px;
+    width: 90px;
+    position: absolute; 
+    font-size: 18px;   
+    margin: 0 15px;
+}
+  select {
+    position: relative;  
+    top: -16px;  
+    font-size: 17px;
+    height: 50px;
+    width: 50px;  
+    margin: 0 15px;
+}
+textarea{
+    font-size: 3,5 em;
+    height: 50px; 
+    width: 400px; 
+    font-size: 18px; 
+ }
+ .item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    position: absolute;
+    top: 70vh;  
+    background-color: #E21717;
+}
+ .container{
+    position: absolute;
+    /* top: -309px; */
+    left: 122vh;
+    color: white;
+    margin: 19px;
+    text-align: justify;
+    font-size: 17px; 
+}
+.rows{
+        
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 3.5vh;
+    left: 70vh;
+    justify-content: space-between;
+    border-bottom:  1px solid;
+    color: #CAD5E2;
+    width: 400px;
+    cursor: pointer;
+    padding-bottom: 20px; 
+ }
+.row{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4vh;
+    left: 150vh;
+    justify-content: space-between;
+    border-bottom:  1px solid;
+    color: #CAD5E2;
+    width: 300px;
+    cursor: pointer;
+   padding-bottom: 20px;      
+}
+
+.title_depense{
+    color: black;
+ }
+ .montant_depense{
+    color: #1C8D73;
+ }
+.list_revenue{
+    color: #E21717;
+
+}
+.DEPENSES{
+    color:#1C8D73;
+    position: absolute;  
+    left: 70vh;
+    top: -2vh;
+ }
+ 
+ .expense{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    padding-top: 20px;
+    position: absolute;
+    left: 150vh;
+    border-bottom: 1px;
+    top: -5vh;
+    color: #E21717;
+ }  
+
+ 

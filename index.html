@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>App Ges Budget</title>
+</head>
+<body>
+    <div> 
+        <div class="box"> 
+            <ul> 
+                <li id="li">Income</li> 
+                <h3 id="+0.00">+0.00</h3>
+                <li class="li">Expenses</li>
+                <h5 id="+0.00">+0.00 </h5>
+           </ul>
+        </div>
+
+        <div class="formBox">
+            <form>
+                <select name="name">
+                    <option value="valeur"></option>
+                    <option >-</option>
+                    <option>+</option>
+                </select>
+                <textarea id="message" rows="2" placeholder="Add description"></textarea>
+                <input type="text" id="name" placeholder="valeur" /> 
+                <div style="position: absolute; top: 5px; left: 90vh; font-size: 40px;"><i class="fa-sharp fa-regular fa-circle-check"></i></div>
+            </form>
+        </div>
+        <div class="container">
+            <!-- <p style={horizontal}>avalaible budget in february 2023</p> -->
+            <h4 style="width: 300px;">avalaible budget in february 2023 :</h4>
+            <h1 id="budget">+0.00</h1>
+            <!-- <h1 style="font-size: 30px;"></h1> -->
+
+        </div>
+        <div class="item-container">        
+            <div  style="display: flex; flex-direction: column; position: absolute; left: 0;">
+                <h2 class ="DEPENSES">INCOME</h2>
+                <div class="rows">
+                    <span class="title_depense">Salaire</span>
+                    <span class="montant_depense">+5000</span>     
+                </div>
+            </div>
+            <h2 class="expense">EXPENSES</h2>
+            <div style="display: flex; flex-direction: column;margin-right: 130;">
+                <div class="row">
+                    <span class="title_depense">Grocery</span>  
+                    <span class="title_depense">Car</span>  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
